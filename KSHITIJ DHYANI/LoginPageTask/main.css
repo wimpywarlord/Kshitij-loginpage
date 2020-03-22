@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3E3E3E;
+  font-family: "open sans", helvetica, arial, sans;
+
+}
+.logo{
+  width: 100px;
+}
+
+.parent {
+
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+}
+
+.div1 {
+
+    grid-area: 1 / 1 / 6 / 3;
+
+    border-radius: 30px 0px 0px 30px;
+  
+    background: rgb(240,84,7);
+    
+    background: linear-gradient(120deg, rgba(240,84,7,1) 0%, rgba(254,133,10,0.8901734104046243) 100%);
+
+    box-shadow: 0.5px -0.5px 6px 0.1px #FF764A;
+  }
+
+.div2 {
+
+   color: #FF764A;
+   grid-area: 1 / 3 / 6 / 6; 
+   background-color: #2B2B2B;
+   padding: 2em;
+   border-radius: 0px 30px 30px 0px;
+   box-shadow: 0.5px -0.5px 6px 0.1px #FF764A;
+}
+
+#login-img
+{
+  max-height: 100px;
+  max-width: 100px;
+}
+
+
+.log-form {
+
+  box-shadow: 0.5px -0.5px 3px 5px #FF764A;
+  background-color: #2B2B2B;
+  border-radius: 32px;
+  width: 100%;
+  min-width: 39vw;
+  max-width: 59vw;
+  min-height: 59vh;
+  max-height: 69vh;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  text-align: center;
+}
+.log-form {
+  /*padding: 2em;*/
+  -webkit-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  -moz-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+}
+
+form {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+/* ========================WRITE YOUR CSS FROM HERE======================== */
